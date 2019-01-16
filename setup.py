@@ -8,7 +8,6 @@ setup(
     author='University of Bremen; Navid Jadid',
     author_email='jadid.navid@yahoo.de',
     description='A package to safely retrieve environment variables',
-    package_dir={'environment-variable-getter': 'src'},
-    packages=['environment-variable-getter'],
+    py_modules=['environment_variable_getter'],
     tests_require=['pytest']
 )
